@@ -31,7 +31,18 @@ gulp.task('sass', function() {
 
 // Minify compiled CSS
 gulp.task('minify-css', ['sass'], function() {
-  return gulp.src('css/agency.css')
+  gulp.src('css/agency.css')
+    .pipe(cleanCSS({
+      compatibility: 'ie8'
+    }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('css'))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
+  gulp.src('css/custom.css')
     .pipe(cleanCSS({
       compatibility: 'ie8'
     }))
