@@ -101,3 +101,13 @@ section#reviews .container .row .review-item div.review-content {
     font-size: 1.5em;
     color: #fed136;
 }
+
+#orientacion-title {
+    font-size: 2em;
+} 
+
+@media (min-width: 992px) {
+    #orientacion-title {
+        font-size: 3em;
+    }
+}
