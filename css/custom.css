@@ -97,7 +97,7 @@ section#reviews .container .row .review-item div.review-content {
     padding: 25px;
 }
 
-#contact-mail {
+.contact-link {
     font-size: 1.5em;
     color: #fed136;
 }
