@@ -1,0 +1,59 @@
+a {
+    color: green;
+}
+
+header.masthead {
+    background-image: url("../img/ixa-header.png");
+}
+
+#mainNav .navbar-brand div.ixa-menu-image {
+    height: 62px;
+    width: 315px;
+    background-image: url("../img/logos/logo-ancho.png");
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: darkblue;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: blue;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #f25d12;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+#mainNav.navbar-shrink .navbar-brand div.ixa-menu-image {
+    height: 50px;
+    width: 254px;
+    background-image: url("../img/logos/logo-ancho-small.png");
+}
+
+section#reviews {
+    background: #8c7620;
+}
+
+section#reviews h2.section-heading {
+    color: white;
+    padding-bottom: 35px;
+}
+
+section#reviews .container .row .review-item {
+    margin-bottom: 25px;
+}
+
+section#reviews .container .row .review-item div.review-content {
+    background: white;
+    border-radius: 4px;
+    padding: 25px;
+}
+
+#contact-mail {
+    font-size: 1.5em;
+    color: #fed136;
+}
