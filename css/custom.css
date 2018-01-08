@@ -2,36 +2,80 @@ a {
     color: green;
 }
 
-header.masthead {
-    background-image: url("../img/ixa-header.png");
-}
-
 #mainNav .navbar-brand div.ixa-menu-image {
-    height: 62px;
-    width: 315px;
-    background-image: url("../img/logos/logo-ancho.png");
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-    color: darkblue;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: blue;
-}
-
-#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #f25d12;
-}
-
-#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
-}
-
-#mainNav.navbar-shrink .navbar-brand div.ixa-menu-image {
     height: 50px;
     width: 254px;
     background-image: url("../img/logos/logo-ancho-small.png");
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #f25d12;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+#mainNav .navbar-brand div.ixa-menu-image {
+    height: 50px;
+    width: 254px;
+    background-image: url("../img/logos/logo-ancho-small.png");
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+      -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; }
+      #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important; }
+      #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #212529; }
+      #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; }
+    
+    #mainNav .navbar-brand div.ixa-menu-image {
+        height: 62px;
+        width: 315px;
+        background-image: url("../img/logos/logo-ancho.png");
+    }
+    
+    #mainNav .navbar-nav .nav-item .nav-link {
+        color: darkblue;
+    }
+    
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: blue;
+    }
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+        color: #f25d12;
+    }
+    
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+        color: #fed136;
+    }
+    
+    #mainNav.navbar-shrink .navbar-brand div.ixa-menu-image {
+        height: 50px;
+        width: 254px;
+        background-image: url("../img/logos/logo-ancho-small.png");
+    }
+}
+
+header.masthead {
+    background-image: url("../img/ixa-header.png");
 }
 
 section#reviews {
